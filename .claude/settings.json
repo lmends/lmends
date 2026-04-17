@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github-profile-trophy.vercel.app)",
+      "WebFetch(domain:streak-stats.demolab.com)",
+      "WebFetch(domain:github-readme-stats.vercel.app)"
+    ]
+  }
+}
