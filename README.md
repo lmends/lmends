@@ -12,7 +12,7 @@
 
 <div align="center">
 
-<img src="./terminal.svg" alt="Terminal animado sobre mim" />
+[![Quiz](https://img.shields.io/static/v1?label=🎮&message=Você+me+conhece%3F+Faça+o+quiz!&color=a855f7&style=for-the-badge&labelColor=0d1117)](quiz/start.md)
 
 </div>
 
