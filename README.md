@@ -63,13 +63,7 @@ lucas = {
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/lmends/lmends/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=lmends&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="https://raw.githubusercontent.com/lmends/lmends/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
 </div>
 
