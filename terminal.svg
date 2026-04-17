@@ -1,0 +1,87 @@
+<svg width="680" height="365" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line {
+      opacity: 0;
+      animation: appear 0.4s ease forwards;
+    }
+    @keyframes appear {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    .l1  { animation-delay: 0.4s; }
+    .l2  { animation-delay: 1.1s; }
+    .l3  { animation-delay: 1.9s; }
+    .l4  { animation-delay: 2.6s; }
+    .l5  { animation-delay: 3.4s; }
+    .l6  { animation-delay: 4.1s; }
+    .l7  { animation-delay: 4.9s; }
+    .l8  { animation-delay: 5.6s; }
+    .l9  { animation-delay: 6.4s; }
+    .l10 { animation-delay: 7.1s; }
+    .l11 { animation-delay: 7.9s; }
+
+    .cursor {
+      opacity: 0;
+      animation: appear 0.1s ease forwards, blink 1s step-end infinite;
+      animation-delay: 7.9s, 8.1s;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0; }
+    }
+  </style>
+
+  <!-- background -->
+  <rect width="680" height="365" rx="12" fill="#0d1117"/>
+
+  <!-- header bar -->
+  <rect width="680" height="40" rx="12" fill="#161b22"/>
+  <rect y="28" width="680" height="12" fill="#161b22"/>
+
+  <!-- traffic lights -->
+  <circle cx="24" cy="20" r="7" fill="#ff5f57"/>
+  <circle cx="46" cy="20" r="7" fill="#febc2e"/>
+  <circle cx="68" cy="20" r="7" fill="#28c840"/>
+
+  <!-- window title -->
+  <text x="340" y="25" font-size="12" fill="#8b949e" text-anchor="middle" font-family="Courier New, monospace">lucas@github: ~/about</text>
+
+  <!-- whoami -->
+  <text class="line l1" x="24" y="70" font-size="13" font-family="Courier New, monospace">
+    <tspan fill="#a855f7">❯ </tspan><tspan fill="#79c0ff">whoami</tspan>
+  </text>
+  <text class="line l2" x="36" y="95" font-size="13" font-family="Courier New, monospace" fill="#e6edf3">Lucas Mendes — Vibecoder IA</text>
+
+  <!-- stack -->
+  <text class="line l3" x="24" y="128" font-size="13" font-family="Courier New, monospace">
+    <tspan fill="#a855f7">❯ </tspan><tspan fill="#79c0ff">cat </tspan><tspan fill="#e6edf3">stack.txt</tspan>
+  </text>
+  <text class="line l4" x="36" y="153" font-size="13" font-family="Courier New, monospace">
+    <tspan fill="#7ee787">Python</tspan><tspan fill="#8b949e"> · </tspan><tspan fill="#7ee787">HTML</tspan><tspan fill="#8b949e"> · </tspan><tspan fill="#7ee787">CSS</tspan><tspan fill="#8b949e"> · </tspan><tspan fill="#7ee787">JavaScript</tspan>
+  </text>
+
+  <!-- automacao -->
+  <text class="line l5" x="24" y="186" font-size="13" font-family="Courier New, monospace">
+    <tspan fill="#a855f7">❯ </tspan><tspan fill="#79c0ff">cat </tspan><tspan fill="#e6edf3">automacao.txt</tspan>
+  </text>
+  <text class="line l6" x="36" y="211" font-size="13" font-family="Courier New, monospace">
+    <tspan fill="#7ee787">n8n</tspan><tspan fill="#8b949e"> · </tspan><tspan fill="#7ee787">Google Apps Script</tspan>
+  </text>
+
+  <!-- infra -->
+  <text class="line l7" x="24" y="244" font-size="13" font-family="Courier New, monospace">
+    <tspan fill="#a855f7">❯ </tspan><tspan fill="#79c0ff">cat </tspan><tspan fill="#e6edf3">infra.txt</tspan>
+  </text>
+  <text class="line l8" x="36" y="269" font-size="13" font-family="Courier New, monospace">
+    <tspan fill="#7ee787">VPS</tspan><tspan fill="#8b949e"> · </tspan><tspan fill="#7ee787">Linux</tspan><tspan fill="#8b949e"> · </tspan><tspan fill="#7ee787">Business Intelligence</tspan>
+  </text>
+
+  <!-- filosofia -->
+  <text class="line l9" x="24" y="302" font-size="13" font-family="Courier New, monospace">
+    <tspan fill="#a855f7">❯ </tspan><tspan fill="#79c0ff">echo </tspan><tspan fill="#e6edf3">$FILOSOFIA</tspan>
+  </text>
+  <text class="line l10" x="36" y="327" font-size="13" font-family="Courier New, monospace" fill="#e6edf3">"Minha parte e fazer o cafe"</text>
+
+  <!-- prompt + cursor -->
+  <text class="line l11" x="24" y="358" font-size="13" font-family="Courier New, monospace" fill="#a855f7">❯ <tspan class="cursor" fill="#e6edf3">█</tspan></text>
+</svg>
