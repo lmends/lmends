@@ -51,16 +51,6 @@ lucas = {
 
 ---
 
-## Troféus
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=lmends&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ## Onde me encontrar
 
 <div align="center">
@@ -74,7 +64,13 @@ lucas = {
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/lmends/lmends/output/github-contribution-grid-snake-dark.svg)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=lmends&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=lmends&color=A855F7&style=for-the-badge&label=VISITAS+AO+PERFIL)
 
 </div>
 
